@@ -1,6 +1,6 @@
 /* eslint no-console: "off" */
 import mongoose from 'mongoose';
-import getConfig from 'config';
+import getConfig from 'infrastructure/config';
 
 const { mongo } = getConfig;
 
