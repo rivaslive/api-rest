@@ -13,19 +13,19 @@
         ],
         "alias": {
           "$server": [
-            "./src/server"
+            "./src/infrastructure/server"
           ],
           "$config": [
-            "./src/config"
+            "./src/infrastructure/config"
           ],
           "$models": [
-            "./src/models"
+            "./src/domain/models"
           ],
           "$modules": [
-            "./src/modules"
+            "./src/application/modules"
           ],
           "$transformation": [
-            "./src/transformation"
+            "./src/infrastructure/transformation"
           ]
         }
       }

@@ -1,16 +1,31 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-      "target": "esnext",
+    "target": "esnext",
     "baseUrl": "./src",
     "paths": {
-      "$server/*": ["src/server/*"],
-      "$config/*": ["src/config/*"],
-      "$models/*": ["src/models/*"],
-      "$modules/*": ["src/modules/*"],
-      "$transformation/*": ["src/transformation/*"]
+      "$server/*": [
+        "src/infrastructure/server/*"
+      ],
+      "$config/*": [
+        "src/infrastructure/config/*"
+      ],
+      "$transformation/*": [
+        "src/infrastructure/transformation/*"
+      ],
+      "$models/*": [
+        "src/domain/models/*"
+      ],
+      "$modules/*": [
+        "src/application/modules/*"
+      ]
     }
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/node_modules/**"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/**"
+  ]
 }
