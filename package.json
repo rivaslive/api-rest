@@ -1,0 +1,42 @@
+{
+  "name": "udocent-api",
+  "version": "1.0.0",
+  "description": "Api for udocent.com",
+  "main": "src/main.js",
+  "author": "rivaslive",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon -r esm --exec babel-node src/main.js",
+    "build": "nodemon -r esm src/main.js",
+    "start": "nodemon -r esm src/main.js",
+    "lint": "tsc --pretty --noEmit && eslint .",
+    "lint:fix": "eslint . --fix",
+    "format:check": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "apollo-server-core": "^3.6.2",
+    "apollo-server-express": "^3.6.2",
+    "dotenv": "^14.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "graphql": "^16.2.0",
+    "graphql-tag": "^2.12.6",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.10",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.10",
+    "@types/node": "^17.0.10",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.25.2",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}

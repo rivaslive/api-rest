@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+      "target": "esnext",
+    "baseUrl": "./src",
+    "paths": {
+      "$server/*": ["src/server/*"],
+      "$config/*": ["src/config/*"],
+      "$models/*": ["src/models/*"],
+      "$modules/*": ["src/modules/*"],
+      "$transformation/*": ["src/transformation/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/node_modules/**"]
+}
