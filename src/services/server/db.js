@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import getConfig from 'src/services/config';
+import getConfig from '../config';
 
 const { mongo } = getConfig;
 
