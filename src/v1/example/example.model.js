@@ -1,6 +1,7 @@
-import mongoose, { Schema } from 'mongoose';
+import mongoose from 'mongoose';
 
-const modelName = 'students';
+const { Schema } = mongoose;
+const modelName = 'examples';
 
 const schema = new Schema(
   {
@@ -8,13 +9,7 @@ const schema = new Schema(
       type: String,
     },
     email: {
-      type: String
-    },
-    career: {
-      type: String
-    },
-    codeStudent: {
-      type: String
+      type: String,
     },
     status: {
       type: String,
@@ -41,4 +36,5 @@ schema.set('toJSON', {
   // },
 });
 
-export default mongoose.models.Student || mongoose.model(modelName, schema);
+// rename name Example to singular Model
+export default mongoose.models.Example || mongoose.model(modelName, schema);

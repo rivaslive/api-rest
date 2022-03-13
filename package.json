@@ -1,7 +1,7 @@
 {
-  "name": "udocent-api",
+  "name": "crn-rest",
   "version": "1.0.0",
-  "description": "Api for udocent.com",
+  "description": "Api created by create-rivas-node",
   "main": "src/main.js",
   "author": "rivaslive",
   "license": "MIT",
@@ -16,14 +16,9 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "apollo-server": "^3.6.2",
-    "apollo-server-core": "^3.6.2",
-    "apollo-server-express": "^3.6.2",
     "dotenv": "^14.2.0",
     "esm": "^3.2.25",
     "express": "^4.17.2",
-    "graphql": "^16.2.0",
-    "graphql-tag": "^2.12.6",
     "mongoose": "^6.1.7"
   },
   "devDependencies": {

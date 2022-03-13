@@ -1,12 +1,12 @@
 <h1 align="center">
   <a href="https://dummyimage.com/200x200/000/fff">
-    uDocent Graphql API
+    API REST Template
   </a>
 </h1>
 
 <p align="center">
   Build app with .
-  <strong>nodejs and Apolo server.</strong><br>
+  <strong>nodejs and Express.</strong><br>
 </p>
 
 ## 📋 Requirements
@@ -22,4 +22,4 @@
 
 ## 🚀 Servers
 
-- API Link – http://localhost:4000
+- API Link – http://localhost:8080

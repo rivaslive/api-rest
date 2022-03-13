@@ -1,6 +1,7 @@
 import 'dotenv/config';
-import initializeServer from 'infrastructure/server';
+import routes from 'src/routes';
+import initializeServer from 'src/services/server';
 
-const startServer = initializeServer();
+const startServer = initializeServer(routes);
 
 export default startServer;

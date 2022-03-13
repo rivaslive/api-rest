@@ -1,6 +1,6 @@
 const config = {
-  port: process.env.APP_PORT || 4000,
-  mongo: {
+  port: process.env.APP_PORT || 8080,
+  database: {
     uri: process.env.APP_DATABASE_URL,
     options: {},
   },

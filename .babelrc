@@ -12,6 +12,9 @@
           "./src"
         ],
         "alias": {
+          "src": [
+            "./src"
+          ],
           "$server": [
             "./src/infrastructure/server"
           ],
