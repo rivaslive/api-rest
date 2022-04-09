@@ -41,5 +41,6 @@ yarn-error.log*
 #webstorm
 .idea
 yarn.lock
+dist
 
 package-lock.json
