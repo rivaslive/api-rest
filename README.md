@@ -1,25 +1,40 @@
-<h1 align="center">
-  <a href="https://dummyimage.com/200x200/000/fff">
-    API REST Template
-  </a>
-</h1>
+# CREATE RIVAS NODE
 
-<p align="center">
-  Build app with .
-  <strong>nodejs and Express.</strong><br>
-</p>
+My personal npx command for create nodejs package
 
-## 📋 Requirements
+## Configuration
 
-- Node 14.x.x
-- Yarn 1.x.x
+Rename .env.example to .env and set APP_DATABASE_URL with your database url
+form [MongoDB Atlas](https://www.mongodb.com/es)
 
-## 👏 Extensions / Install Editor
+## Installation
 
-- Prettier
-- Eslint
-- editorConfig
+```bash
+yarn install
+```
 
-## 🚀 Servers
+or
 
-- API Link – http://localhost:8080
+```bash
+npm install
+```
+
+## Launch Server
+
+```bash
+yarn dev
+```
+
+or
+
+```bash
+npm run dev
+```
+
+### Create a model
+
+For create a model you need modify the file with extension `.model.js`
+
+_After insert project name and choose template to create_
+
+Created with love ❤️

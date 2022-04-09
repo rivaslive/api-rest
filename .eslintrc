@@ -39,6 +39,8 @@
     // It's not accurate in the monorepo style
     "import/no-extraneous-dependencies": "off",
     "no-restricted-exports": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off"
   }
 }

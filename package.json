@@ -7,8 +7,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "nodemon -r esm src/main.js",
-    "start": "node esm src/main.js",
+    "dev": "nodemon --exec babel-node src/main.js",
+    "start": "node dist/src/main.js",
+    "build": "babel src/main.js -d dist",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format:check": "prettier --check .",
@@ -21,7 +22,12 @@
     "mongoose": "^6.1.7"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
     "@types/node": "^17.0.10",
+    "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "8.2.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.25.2",
